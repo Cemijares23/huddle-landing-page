@@ -40,11 +40,13 @@ body {
     }
 }
 
+/* Container */
 .container {
     margin: 0 auto;
     max-width: 130rem;
 }
 
+/* Logo */
 .logo {
     max-width: 12rem;
 }
@@ -77,11 +79,6 @@ body {
     max-width: 100%;
 }
 
-/* .grid__content {
-    padding: 2rem;
-    margin-top: 2rem;
-} */
-
 .grid__title {
     font-family: var(--headingsFont);
     font-size: 2.4rem;
@@ -112,8 +109,9 @@ body {
 .grid__btn {
     display: inline-block;
     text-decoration: none;
-    font-family: var(--bodyFont);
+    font-family: var(--headingsFont);
     font-size: 1.4rem;
+    color: var(--violet);
     background-color: white;
     border-radius: 6rem;
     padding: 1rem 6rem;
@@ -131,6 +129,7 @@ body {
     }
 }
 
+/* Icons */
 .icons {
     text-align: center;
     margin-top: 6rem;
@@ -148,18 +147,20 @@ body {
     border: 1px solid white;
     border-radius: 3rem;
     padding: .5rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
-.icon:hover {
-    fill: var(--softMagenta);
-}
-
 @media (min-width: 76.8rem) {
     .icon {
         width: 4rem;
         height: 4rem;
         padding: 1rem;
     }
+}
+.icon:hover {
+    border: 1px solid var(--softMagenta);
+}
+.icon:hover path {
+    fill: var(--softMagenta);
 }
 
 .attribution { font-size: 1.1rem; text-align: center; margin-top: 4rem;}
