@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot-template.png)
+![](./screenshot-huddle.png)
 
 ### Links
 
